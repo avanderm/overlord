@@ -1,0 +1,8 @@
+---
+# tasks file for bundles
+- name: Install bundles
+  package:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ bundles }}"
+  become: true

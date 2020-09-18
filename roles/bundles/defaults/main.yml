@@ -1,0 +1,21 @@
+---
+# defaults file for bundles
+bundles:
+  - containers-basic
+  - devpkg-bzip2
+  - devpkg-cups-filters
+  - devpkg-libvirt
+  - dev-utils-dev
+  - hardware-printing
+  - java-basic
+  - java-runtime
+  - jq
+  - kernel-kvm
+  - kvm-host
+  - libxml2
+  - network-basic
+  - python-extras
+  - ruby-basic
+  - samba
+  - tmux
+  - virt-manager
