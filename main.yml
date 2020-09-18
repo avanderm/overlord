@@ -3,4 +3,5 @@
   connection: local
 
   roles:
-    - bundles
+    - role: bundles
+      become: yes

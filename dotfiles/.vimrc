@@ -40,8 +40,8 @@ filetype plugin indent on
 
 set number
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 
@@ -64,7 +64,8 @@ nnoremap <C-p> :<C-u>FZF<CR>
 let g:ale_completion_enabled = 1
 
 let g:ale_linters = {
-\ 'python': ['bandit', 'flake8', 'mypy', 'pylint', 'pyls', 'pyright']
+\ 'python': ['bandit', 'flake8', 'mypy', 'pylint', 'pyls', 'pyright'],
+\ 'ansible': ['yamllint', 'ansible-lint']
 \ }
 
 let g:ale_python_mypy_options='--warn-no-return --ignore-missing-imports'
