@@ -23,6 +23,7 @@ call minpac#add('airblade/vim-gitgutter')
 " Python related plugins
 call minpac#add('davidhalter/jedi-vim', {'type': 'opt'})
 call minpac#add('lambdalisue/vim-pyenv', {'type': 'opt'})
+call minpac#add('jmcantrell/vim-virtualenv')
 call minpac#add('petobens/poet-v')
 
 " HTML & CSS related plugins
@@ -30,6 +31,14 @@ call minpac#add('mattn/emmet-vim')
 
 " Ansible
 call minpac#add('chase/vim-ansible-yaml')
+
+" Rust
+call minpac#add('rust-lang/rust.vim')
+
+" Typescript
+call minpac#add('pangloss/vim-javascript')
+call minpac#add('leafgarland/typescript-vim')
+call minpac#add('jparise/vim-graphql')
 
 command! PackClean call minpac#clean()
 command! PackStatus call minpac#status()
